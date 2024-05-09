@@ -1,0 +1,15 @@
+{
+  "name": "notes-app-express-html",
+  "version": "1.0.0",
+  "description": "Notes Project using Express, HTML and Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "author": "Adnan Hamisi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
