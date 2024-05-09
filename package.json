@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Notes Project using Express, HTML and Tailwind",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server",
     "dev": "node --watch --env-file=.env server"
@@ -10,6 +11,7 @@
   "author": "Adnan Hamisi",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "express": "^4.19.2"
   }
 }
