@@ -1,9 +1,11 @@
 let notes = [
-    { id: 1, title: 'Note One', content: 'Note 1 Content goes here', starred: true},
-    { id: 2, title: 'Note Two', content: 'Note 2 Content goes here', starred: true},
-    { id: 3, title: 'Note Three', content: 'Note 3 Content goes here', starred: true},
-    { id: 4, title: 'Note Four', content: 'Note 4 Content goes here', starred: true},
-    { id: 5, title: 'Note Five', content: 'Note 5 Content goes here', starred: true},
+    { id: 1, title: 'Note One and all its content header', content: 'Note 1 Content goes here', starred: true},
+    { id: 2, title: 'Note Two and all its content header', content: 'Note 2 Content goes here', starred: false},
+    { id: 3, title: 'Note Three and all its content header', content: 'Note 3 Content goes here', starred: true},
+    { id: 4, title: 'Note Four and all its content header', content: 'Note 4 Content goes here', starred: false},
+    { id: 5, title: 'Note Five and all its content header', content: 'Note 5 Content goes here', starred: true},
+    { id: 6, title: 'Note Six and all its content header', content: 'Note 6 Content goes here', starred: false},
+    { id: 7, title: 'Note Seven and all its content header', content: 'Note 7 Content goes here', starred: true},
 ];
 
 //Get all Notes | GET /api/notes
